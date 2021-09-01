@@ -12,7 +12,46 @@
 <link rel="stylesheet" href="./css/maps.css">
 
 <body>
+    <div class="wrapper">
+        <div class="tabs">
+            <div role="tablist" aria-label="Programming Languages">
+                <button role="tab" aria-selected="true" id="intro-maps">
+                    Introducing the Money and Pensions Service
+                </button>
+                <button role="tab" aria-selected="false" id="our-journey">Our journey
+                </button>
+                <button role="tab" aria-selected="false" id="our-mission">
+                    Our mission
+                </button>
+                <button role="tab" aria-selected="false" id="talk-money">
+                    Talk Money Week 2021
+                </button>
 
+            </div>
+            <div role="tabpanel" aria-labelledby="intro-maps">
+                <p>The Money and Pensions Service (MaPS) is an arm’s-length body sponsored by the Department for Work
+                    and Pensions, established at the beginning of 2019, and also engages with HM Treasury on policy
+                    matters relating to financial capability and debt advice.
+                </p>
+                <p>Looking for money or pensions help?</p>
+            </div>
+            <div role="tabpanel" aria-labelledby="our-journey" hidden>
+                <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+            <div role="tabpanel" aria-labelledby="our-mission" hidden>
+                <p>We help people – particularly those most in need – to improve their financial wellbeing and build a
+                    better, more confident future. Working collaboratively across the UK, we make sure customers can
+                    access high-quality money and pensions guidance and debt advice throughout their lives, how and when
+                    they need it.</p>
+            </div>
+            <div role="tabpanel" aria-labelledby="talk-money" hidden>
+                <p>Each November organisations like yours help people open up about money, and build financial
+                    wellbeing.</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="./js/maps-tabs.js"></script>
 </body>
 
 </html>
