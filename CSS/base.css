@@ -12,8 +12,10 @@ html {
     --black: #2e2e2e;
     --red: #c73737;
     --green: #61e846;
+    --selected-tab: hsla(234, 87%, 34%, 1);
     --text-shadow: 2px 2px 0 rgba(0,0,0,0.2);
     --box-shadow: 0 0 5px 5px rgba(0,0,0,0.2);
+    --selected-tab-border: #8DA2AF;
     font-size: 62.5%;
     font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     box-sizing: border-box;
@@ -49,7 +51,7 @@ html {
   /* Helper Divs */
   
   .wrapper {
-    max-width: 1000px;
+    max-width: 981px;
     margin: 4rem auto;
     padding: 2rem;
     background: var(--grey);
@@ -73,10 +75,11 @@ html {
     text-decoration: none;
     font-weight: 600;
     font-size:2rem;
+    cursor: pointer;
   }
   
   :focus {
-    outline-color: var(--pink);
+    outline-color: var(--selected-tab-border);
   }
   
   fieldset {
