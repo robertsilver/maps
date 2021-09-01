@@ -11,15 +11,3 @@
 div[role="tabpanel"] {
    padding: 5px;
 }
-
-@media screen and (max-width: 768px) {
-    button[role="tab"] {
-      width: 100%;
-     }
-}
-
-@media screen and (max-width: 600px) { 
-    button[role="tab"] {
-      width: 100%;
-     }
-}
